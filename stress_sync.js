@@ -1,6 +1,6 @@
 /*  
     Pushes 200 synchronous requests one after the other. 
-    A request is sent only after the one before it is processed and responded on.
+    A request is sent only after the one before is processed and responded on.
     Response and processing time for each request is shown in console output. 
     Shows how much time it would take to send 200 requests to Service Now if the 
     requests are sent in synchronous fashion.
