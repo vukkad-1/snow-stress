@@ -18,7 +18,7 @@
     "webservice"
   ],
   "author": "vuk.kadenic@gmail.com",
-  "license": "ISC",
+  "license": "GPL-3.0-only",
   "bugs": {
     "url": "https://github.com/vukkad-1/snow-stress/issues"
   },
