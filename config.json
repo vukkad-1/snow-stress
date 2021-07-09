@@ -1,0 +1,9 @@
+{
+    "url": "<URL of the targeted web service in ServiceNow>",
+    "headers": {
+        "Content-Type": ["application/json", "text/plain"],
+        "Authorization": "Basic <YOUR STRING>",
+        "Cookie": "<Service Now cookie, if the session is to be reused, remove otherwise>"
+    },
+    "body": "{<YOUR MESSAGE, usually a json with an ACTION and a payload. As the payload is going to be the same each time, an INSERT action is preferred>}"
+}

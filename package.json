@@ -1,0 +1,29 @@
+{
+  "name": "snow-stress",
+  "version": "1.0.0",
+  "description": "Stress tests against Service Now receiving web service, provoking semaphore overload.",
+  "main": "stress.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vukkad-1/snow-stress.git"
+  },
+  "keywords": [
+    "ServiceNow",
+    "semaphore",
+    "overload",
+    "test",
+    "webservice"
+  ],
+  "author": "vuk.kadenic@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vukkad-1/snow-stress/issues"
+  },
+  "homepage": "https://github.com/vukkad-1/snow-stress#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
