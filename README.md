@@ -1,5 +1,5 @@
 # snow-stress
-Stress tests against Service Now that demonstrates semaphore overload problem and reveals the actual throughput of your Service Now instance for receiving and processing https requests. The time Service Now uses for processing and answering your API request is dependent on the operation being requested, so please use a real life scenario that actually requires that your payload is processed and selects/inserts/updates/deletes of rows in Service Now tables are required.
+Stress tests against Service Now that demonstrate semaphore overload problem and reveal the actual throughput of your Service Now instance for receiving and processing https requests. The time Service Now uses for processing and answering your API request is dependent on the operation being requested, as well as on the current workload of Service Now, so please use a real life scenario that actually requires that your payload is processed and selects/inserts/updates/deletes of rows in Service Now tables are required.
 
 Instructions:
 1. Run the tests on a system with nodejs available
