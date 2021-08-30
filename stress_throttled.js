@@ -54,12 +54,13 @@ function sender() {
             console.log(response.statusMessage);
         });
     }
+    if (main_itt_count < 25) {
+        setInterval(sender, 20000);
+    } else {
+            let end_time = Date.now();
+            console.log("The whole operation timed:");
+            console.log((end_time - start_time) / 1000);
+    }
 }
 
-if (main_itt_count < 25) {
-    setInterval(sender, 20000);
-} else {
-    let end_time = Date.now();
-    console.log("The whole operation timed:");
-    console.log((end_time - start_time) / 1000);
-}
+
